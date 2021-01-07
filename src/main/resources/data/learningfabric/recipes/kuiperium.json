@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "learningfabric:kuiperium_block"
+    }
+  ],
+  "result": {
+    "item": "learningfabric:kuiperium",
+    "count": 9
+  }
+}

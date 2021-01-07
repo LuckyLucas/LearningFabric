@@ -11,6 +11,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
+    // Kuiperium Crystal Block
     public static final Block KUIPERIUM_BLOCK = new Block(FabricBlockSettings
             .of(Material.METAL)
             .breakByTool(FabricToolTags.PICKAXES, 3)
@@ -20,7 +21,18 @@ public class ModBlocks {
             .luminance(1)
     );
 
+    // Kuiperium Ore Block
+    public static final Block KUIPERIUM_ORE = new Block(FabricBlockSettings
+            .of(Material.STONE)
+            .breakByTool(FabricToolTags.PICKAXES,3)
+            .requiresTool()
+            .strength(4.0f,30.0f)
+            .sounds(BlockSoundGroup.STONE)
+            .luminance(2)
+    );
+
     public static void registerBlocks(){
         Registry.register(Registry.BLOCK, new Identifier(LearningFabric.MOD_ID, "kuiperium_block"), KUIPERIUM_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(LearningFabric.MOD_ID, "kuiperium_ore"), KUIPERIUM_ORE);
     }
 }

@@ -13,9 +13,14 @@ public class ModItems {
 
     // Block Items
     public static final BlockItem KUIPERIUM_BLOCK = new BlockItem(ModBlocks.KUIPERIUM_BLOCK, new Item.Settings().group(LearningFabric.ITEM_GROUP));
+    public static final BlockItem KUIPERIUM_ORE = new BlockItem(ModBlocks.KUIPERIUM_ORE, new Item.Settings().group(LearningFabric.ITEM_GROUP));
 
     public static void registerItems(){
+        // Items
         Registry.register(Registry.ITEM, new Identifier(LearningFabric.MOD_ID, "kuiperium"), KUIPERIUM);
+
+        // Block Items
         Registry.register(Registry.ITEM, new Identifier(LearningFabric.MOD_ID, "kuiperium_block"), KUIPERIUM_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(LearningFabric.MOD_ID, "kuiperium_ore"), KUIPERIUM_ORE);
     }
 }

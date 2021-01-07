@@ -19,8 +19,6 @@ public class LearningFabric implements ModInitializer {
             () -> new ItemStack(ModItems.KUIPERIUM)
     );
 
-
-
     @Override
     public void onInitialize() {
         ModItems.registerItems();
