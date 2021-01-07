@@ -9,10 +9,10 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
 
     // Actual Items
-    public static final Item KUIPERIUM = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item KUIPERIUM = new Item(new Item.Settings().group(LearningFabric.ITEM_GROUP));
 
     // Block Items
-    public static final BlockItem KUIPERIUM_BLOCK = new BlockItem(ModBlocks.KUIPERIUM_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final BlockItem KUIPERIUM_BLOCK = new BlockItem(ModBlocks.KUIPERIUM_BLOCK, new Item.Settings().group(LearningFabric.ITEM_GROUP));
 
     public static void registerItems(){
         Registry.register(Registry.ITEM, new Identifier(LearningFabric.MOD_ID, "kuiperium"), KUIPERIUM);
