@@ -5,8 +5,6 @@ import net.minecraft.recipe.Ingredient;
 
 public class KuiperiumToolMaterial implements ToolMaterial {
 
-    public static final KuiperiumToolMaterial KUIPERIUM_TOOL_MATERIAL = new KuiperiumToolMaterial();
-
     @Override
     public int getDurability() {
         return 1000;
@@ -24,16 +22,16 @@ public class KuiperiumToolMaterial implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 25;
+        return 4;
     }
 
     @Override
     public int getEnchantability() {
-        return 0;
+        return 25;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ModItems.KUIPERIUM);
+        return Ingredient.ofItems(ModItems.STABILIZED_KUIPERIUM);
     }
 }

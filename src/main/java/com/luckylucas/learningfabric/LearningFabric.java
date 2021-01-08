@@ -1,5 +1,6 @@
 package com.luckylucas.learningfabric;
 
+import com.luckylucas.learningfabric.registry.KuiperiumToolMaterial;
 import com.luckylucas.learningfabric.registry.ModBlocks;
 import com.luckylucas.learningfabric.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -12,6 +13,10 @@ public class LearningFabric implements ModInitializer {
 
     // creating a MOD_ID final that can be used anywhere else
     public static final String MOD_ID = "learningfabric";
+
+    // Tool materials
+    public static final KuiperiumToolMaterial KUIPERIUM_TOOL_MATERIAL = new KuiperiumToolMaterial();
+
 
     // creating a item group and creative tab
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(

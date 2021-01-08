@@ -1,6 +1,7 @@
 {
   "item.learningfabric.kuiperium": "Kuiperium Crystal",
   "item.learningfabric.stabilized_kuiperium": "Stabilized Kuiperium Crystal",
+  "item.learningfabric.kuiperium_pickaxe": "Kuiperium Pickaxe",
   "block.learningfabric.kuiperium_block": "Kuiperium Crystal Block",
   "block.learningfabric.kuiperium_ore": "Kuiperium Ore",
   "itemGroup.learningfabric.general":"Learning Fabric: Kuiperium Power"
