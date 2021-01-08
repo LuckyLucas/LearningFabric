@@ -21,7 +21,7 @@ public class LearningFabric implements ModInitializer {
     // creating a item group and creative tab
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
             new Identifier(MOD_ID, "general"),
-            () -> new ItemStack(ModItems.KUIPERIUM)
+            () -> new ItemStack(ModItems.STABILIZED_KUIPERIUM)
     );
 
     @Override

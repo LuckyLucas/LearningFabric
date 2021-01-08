@@ -17,7 +17,7 @@ public class KuiperiumToolMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return 8.0f;
+        return 7.0f;
     }
 
     @Override

@@ -14,10 +14,11 @@ public class ModItems {
     public static final Item STABILIZED_KUIPERIUM = new Item(new Item.Settings().group(LearningFabric.ITEM_GROUP));
 
     // Tool Items
-    public static final ToolItem KUIPERIUM_PICKAXE = new KuiperiumPickaxe(LearningFabric.KUIPERIUM_TOOL_MATERIAL, -1,-2.8f, new Item.Settings().group(LearningFabric.ITEM_GROUP));
+    public static final ToolItem KUIPERIUM_PICKAXE = new KuiperiumPickaxe(LearningFabric.KUIPERIUM_TOOL_MATERIAL, -2,-2.8f, new Item.Settings().group(LearningFabric.ITEM_GROUP));
 
     // Block Items
     public static final BlockItem KUIPERIUM_BLOCK = new BlockItem(ModBlocks.KUIPERIUM_BLOCK, new Item.Settings().group(LearningFabric.ITEM_GROUP));
+    public static final BlockItem STABILIZED_KUIPERIUM_BLOCK = new BlockItem(ModBlocks.STABILIZED_KUIPERIUM_BLOCK, new Item.Settings().group(LearningFabric.ITEM_GROUP));
     public static final BlockItem KUIPERIUM_ORE = new BlockItem(ModBlocks.KUIPERIUM_ORE, new Item.Settings().group(LearningFabric.ITEM_GROUP));
 
     public static void registerItems(){
@@ -30,6 +31,7 @@ public class ModItems {
 
         // Block Items
         Registry.register(Registry.ITEM, new Identifier(LearningFabric.MOD_ID, "kuiperium_block"), KUIPERIUM_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(LearningFabric.MOD_ID, "stabilized_kuiperium_block"), STABILIZED_KUIPERIUM_BLOCK);
         Registry.register(Registry.ITEM, new Identifier(LearningFabric.MOD_ID, "kuiperium_ore"), KUIPERIUM_ORE);
     }
 }

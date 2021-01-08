@@ -16,5 +16,7 @@
       "item": "minecraft:crying_obsidian"
     }
   },
-  "result": {}
+  "result": {
+    "item": "learningfabric:kuiperium_pickaxe"
+  }
 }
