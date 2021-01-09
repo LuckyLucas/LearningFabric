@@ -18,6 +18,7 @@ public class KuiperiumPickaxe extends PickaxeItem {
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand) {
         playerEntity.playSound(SoundEvents.ENTITY_LIGHTNING_BOLT_THUNDER, 0.5F, 2.0F);
+
         return TypedActionResult.success(playerEntity.getStackInHand(hand));
     }
 }

@@ -1,9 +1,7 @@
-# Fabric Example Mod
+# Learning Fabric: Kuiperium Power
 
-## Setup
+## Premise
+I'm learning how to properly take on a project, learn source control, and finally use my A- in Advanced Java for some good.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Content
+This mod adds a special ore, Kuiperium, a green crystal latent with energy, that needs to be refined and supported by other materials before that energy can be harnessed.
