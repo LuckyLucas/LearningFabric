@@ -5,5 +5,6 @@
   "block.learningfabric.kuiperium_block": "Kuiperium Crystal Block",
   "block.learningfabric.stabilized_kuiperium_block": "Stabilized Kuiperium Crystal Block",
   "block.learningfabric.kuiperium_ore": "Kuiperium Ore",
-  "itemGroup.learningfabric.general":"Learning Fabric: Kuiperium Power"
+  "itemGroup.learningfabric.general":"Learning Fabric: Kuiperium Power",
+  "effect.learningfabric.kuiperium_boost": "Kuiperium Boost"
 }

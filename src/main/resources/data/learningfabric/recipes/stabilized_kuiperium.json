@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:smithing",
-  "base": {
-    "item": "learningfabric:kuiperium"
-  },
-  "addition": {
-    "item": "minecraft:diamond"
-  },
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "learningfabric:stabilized_kuiperium_block"
+    }
+  ],
   "result": {
-    "item": "learningfabric:stabilized_kuiperium"
+    "item": "learningfabric:stabilized_kuiperium",
+    "count": 9
   }
 }
